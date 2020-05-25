@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(img/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.container{
+   position: relative;
+    width: 250px;
+    height: 350px;
+    background-color:none;
+    margin: 70px  auto;
+}
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:whitesmoke;
+    transform-style: preserve-3d;
+    transition:all 0.5s ease;
+    box-shadow:20px 20px 20px ;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.back{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotateY(180deg);
+}
+.up{
+    width: 100%;
+    height: 40%;
+    background-image:  url(img/div2.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.name{
+        margin: 5px;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color: blue;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: rgba(0,0,0,4);
+}
+#icon{
+    
+    margin: 20px;
+        text-align: center;   
+        color: yellow;
+}
+#footer{
+    margin-top: 1px;
+    background-color: white;
+    width: 280px;
+    height: 20px;
+    position: absolute;
+}
+.fab{
+    padding:0px 10px 0px 10px;
+    font-size: 24px;
+}
+.fab:hover{
+        color: rgba(157, 255, 0, 0.692);
+    
+    transition:all 0.3s ease;
+    
+    
+}
+#deg{
+    margin: 5px;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color:#acacac;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: rgba(0,0,0,4);
+}
+#para{
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic; 
+    
+    font-family:  monospace;
+    
+}
+ #footer{
+    background-color: darkslateblue;
+}
+.more{
+margin: 5px;
+text-align: center;
+font-family: 'Baloo Paaji 2', cursive;
+color:green;
+font-size: 10px;
+text-transform: uppercase;
+text-shadow: rgba(0,0,0,4);
+}
+.bio{
+    
+    margin: 10px;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color: darkslategray;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: rgba(0,0,0,4);
+}
+#list{
+    width: 90%;
+    height: 65%;
+    margin: 10px auto ;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
